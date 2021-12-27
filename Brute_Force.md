@@ -18,7 +18,7 @@ Similarly, for the case of the attack I used, special precautions could be made 
 I found some of these countermeasures by switching to the impossible security mode and using the same method.  
 Source:https://owasp.org/www-community/attacks/Brute_force_attack
 
-
+<img width="160" alt="Screen Shot 2021-12-27 at 2 40 18 PM Small" src="https://user-images.githubusercontent.com/41707123/147511738-424d9154-8f19-4e13-b296-250b4d9ebef3.png">
 Notes: The process started by gathering the cookie information and URL from the session on the site. 
 Then a password list was created (I made it myself using some random password and the one I knew was on there, but longer ones exist for this).
 Finally, I ran the wfuzz algorithm supplying the cookie information, password list, and URL. This printed out the response page for each session. 
